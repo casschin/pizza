@@ -1,0 +1,78 @@
+.Pizza {
+  max-width: 320px;
+  margin: auto;
+  padding: 20px;
+}
+
+.Pizza-headerText {
+  margin: 0 0 20px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.Pizza-recipeSelector {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Pizza-recipeSelection {
+  cursor: pointer;
+  opacity: 0.25;
+  display: inline-flex;
+  padding: 10px 5px;
+  border: 0 solid #333;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pizza-recipeSelection:hover {
+  opacity: 1;
+}
+
+.Pizza-recipeSelection.active {
+  font-weight: bold;
+  opacity: 1;
+  border-width: 1px;
+}
+
+.Pizza-ingredients {
+  padding: 0;
+  list-style: none;
+}
+
+.Pizza-ingredient {
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Pizza-ingredientLabel {
+  text-transform: capitalize;
+}
+
+.Pizza-ingredientLabel,
+.Pizza-ingredientAmount {
+  font-size: 1.5rem;
+}
+
+.Pizza-ingredientInput {
+  border: 0px solid #333;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  width: 75px;
+  text-align: right;
+}
+
+.Pizza-about {
+  text-align: center;
+  color: #999;
+}
+
+.Pizza-about a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
